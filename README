@@ -1,0 +1,14 @@
+You can find all the variables you might want to play with in Simulator.h.
+To compile simply run the command "make" in this directory and run the file ./Simulator.
+
+Global constants ------------------------
+sim_time (T): The simulated time in seconds that arrivals and departures will be generated for.
+avg_size (L): The average bits per packet of the arrivals.
+net_speed (C): Transmission rate of the network in bits per second.
+intensity (⍴): Utilization of the queue in arrival packets per serviced packets.
+avg_service (C/L): Average number of departure packets in packets per second.
+avg_arrive (λ): Average number of arrival packets in packets per second.
+buf_size (K): Max number of packets in the buffer.
+test: Determines if Q1 is ran.
+inf: Activates infinite buffer case.
+fin: Activates finite buffer case.
